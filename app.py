@@ -29,7 +29,7 @@ st.markdown(
 # LOAD DATA
 # =========================================================
 
-DATA_FILE = "outputs/cleaned_nassau_data.csv"
+DATA_FILE = "cleaned_nassau_data.csv"
 
 try:
     df = pd.read_csv(DATA_FILE)
